@@ -1,4 +1,4 @@
-FROM ubi9/php-81
+FROM php:8.1-apache
 
 RUN pwd
 
