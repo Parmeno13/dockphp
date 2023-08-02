@@ -1,4 +1,4 @@
-FROM php:8.1-apache
+FROM ubi9/php-81
 
 COPY /home/user/datos/ /var/www/html
 
